@@ -9,19 +9,17 @@ when and if my IPFS daemon is running )
 How to build and deploy from scratch.
 Nodejs and truffle should already be installed.
 ### Install dependencies
-```console
+```
 mkdir ethereum-casino
 cd ethereum casino
 truffle init
 npm init
-
 npm i --save webpack react react-dom babel-core babel-loader babel-preset-react babel-preset-env css-loader style-loader json-loader web3@0.20.0 babel-polyfill babel-register babel-preset-stage-2 babel-preset-es2015
-
 npm i -g http-server webpack webpack-cli json-loader 
 ```
 ### Update source code
 Make dirs in project root:
-```console
+```
 mkdir src
 mkdir src/js
 mkdir src/css
@@ -43,7 +41,7 @@ src/js/index.js
 ```
 ### Test and deploy contracts
 Compile contracts using truffle:
-```console
+```
 truffle compile
 ```
 Deploy contracts in ganache:
