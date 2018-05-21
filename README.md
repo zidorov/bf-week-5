@@ -11,10 +11,10 @@ Nodejs and truffle should already be installed.
 ### Install dependencies
 ```
 mkdir ethereum-casino
-cd ethereum casino
+cd ethereum-casino
 truffle init
 npm init
-npm i --save webpack react react-dom babel-core babel-loader babel-preset-react babel-preset-env css-loader style-loader json-loader web3@0.20.0 babel-polyfill babel-register babel-preset-stage-2 babel-preset-es2015
+npm i --save react react-dom babel-core babel-loader babel-preset-react babel-preset-env css-loader style-loader json-loader web3@0.20.0 babel-polyfill babel-register babel-preset-stage-2 babel-preset-es2015
 npm i -g http-server webpack webpack-cli json-loader 
 ```
 ### Update source code
@@ -122,11 +122,13 @@ Published to QmawAyhL433WQDQDLPChzm989fW9sqnjp718rrPu9qFwq8: /ipfs/QmZJy7nbfx2EX
 ###### IPFS addresses (changes every time if file/dir is changed)
 Public gateway:
 ```https://gateway.ipfs.io/ipfs/QmZJy7nbfx2EXfRfHuWcMyNft7afDNnsEo6JvB7vvYb34q```
+
 Local gateway:
 ```https://localhost:8080/ipfs/QmZJy7nbfx2EXfRfHuWcMyNft7afDNnsEo6JvB7vvYb34q```
 ###### IPNS addresses (constant even if file/dir is changed)
 Public gateway:
 ```https://gateway.ipfs.io/ipns/QmawAyhL433WQDQDLPChzm989fW9sqnjp718rrPu9qFwq8```
+
 Local gateway:
 ```https://gateway.ipfs.io/ipns/QmawAyhL433WQDQDLPChzm989fW9sqnjp718rrPu9qFwq8```
 
