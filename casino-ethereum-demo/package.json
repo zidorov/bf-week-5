@@ -26,7 +26,8 @@
     "solc": "^0.4.24",
     "style-loader": "^0.21.0",
     "web3": "^0.20.0",
-    "webpack": "^4.8.3"
+    "webpack": "^4.8.3",
+    "zeppelin-solidity": "^1.9.0"
   },
   "devDependencies": {
     "webpack-cli": "^2.1.3"
